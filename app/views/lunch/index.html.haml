@@ -1,0 +1,63 @@
+%p= @list["status"]
+
+%h1= "Search results - restaurants within 500m of portobello street"
+
+-# TABLE FOR DISPLAYING LOCATION DETAILS
+
+%table
+	%tr
+		%th Name
+		%th Address	
+		%th Rating
+		%th Lat
+		%th Long
+		%th Open Now?
+	- @allResults.each do |gotit|
+		%tr
+			%td= gotit[0]
+			%td= gotit[1]
+			%td= gotit[2]
+			%td= gotit[3]
+			%td= gotit[4]
+			%td= gotit[5]
+			
+			
+-# TABLE FOR DISPLAYING REVIEWS - USES THE REFERENCE FROM A PLACE RESULT
+%h1= "Using the reference from one of the results, we can view the reviews on the location"
+%h1= "Address"
+%p= @fullAddress
+
+%h1= "Website"
+%p= @website
+
+%h1= "Opening hours"
+
+%table
+	%tr
+		%th Day
+		%th Open
+		%th Closed
+	- for i in 0..6
+		%tr
+			%td= Date::DAYNAMES[i]
+			%td= @completeHours[i][0]
+			%td= @completeHours[i][1]
+	
+
+%h1= "Reviews"
+
+%table
+	%tr
+		%th Review
+		%th Aspects
+		%th Author
+		%th Date
+	- @allReviews.each do |rev|
+		%tr
+			%td= rev[0]
+			%td= rev[1]
+			%td= rev[2]
+			%td= rev[3]
+		%tr
+
+

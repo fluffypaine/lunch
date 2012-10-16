@@ -1,0 +1,8 @@
+%table
+	%tr
+		%th Name
+		%th Address	
+	- @meh2["results"].each do |gotit2|
+		%tr
+			%td= gotit2["name"]
+			%td= gotit2["formatted_address"] 

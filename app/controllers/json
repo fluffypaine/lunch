@@ -1,0 +1,212 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "334",
+            "short_name" : "334",
+            "types" : [ "street_number" ]
+         },
+         {
+            "long_name" : "Glossop Road",
+            "short_name" : "Glossop Road",
+            "types" : [ "route" ]
+         },
+         {
+            "long_name" : "Sheffield",
+            "short_name" : "Sheffield",
+            "types" : [ "sublocality", "political" ]
+         },
+         {
+            "long_name" : "Sheffield",
+            "short_name" : "Sheffield",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "South Yorks.",
+            "short_name" : "South Yorks.",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "GB",
+            "short_name" : "GB",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "S10 2HW",
+            "short_name" : "S10 2HW",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "formatted_address" : "334 Glossop Road, Sheffield, United Kingdom",
+      "formatted_phone_number" : "0114 275 2288",
+      "geometry" : {
+         "location" : {
+            "lat" : 53.3802790,
+            "lng" : -1.4847840
+         }
+      },
+      "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+      "id" : "4d445279e85c96573f94661373e61f8f6df16e0a",
+      "international_phone_number" : "+44 114 275 2288",
+      "name" : "The Harley",
+      "opening_hours" : {
+         "open_now" : true,
+         "periods" : [
+            {
+               "close" : {
+                  "day" : 1,
+                  "time" : "0200"
+               },
+               "open" : {
+                  "day" : 0,
+                  "time" : "0900"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 2,
+                  "time" : "0400"
+               },
+               "open" : {
+                  "day" : 1,
+                  "time" : "0730"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 3,
+                  "time" : "0400"
+               },
+               "open" : {
+                  "day" : 2,
+                  "time" : "0730"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 4,
+                  "time" : "0400"
+               },
+               "open" : {
+                  "day" : 3,
+                  "time" : "0730"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 5,
+                  "time" : "0400"
+               },
+               "open" : {
+                  "day" : 4,
+                  "time" : "0730"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 6,
+                  "time" : "0400"
+               },
+               "open" : {
+                  "day" : 5,
+                  "time" : "0730"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 0,
+                  "time" : "0400"
+               },
+               "open" : {
+                  "day" : 6,
+                  "time" : "0900"
+               }
+            }
+         ]
+      },
+      "rating" : 3.50,
+      "reference" : "CnRnAAAAFm4tATp7pCw1KLa3J5uUKJHLu17zMk4RvSFrNU67Z2U6mR2eIBt5Gcu9Wx4DDoDfVZifufdG2-v2Ilqe573HByLgfw1LQU6sFA9r5cg7EjI0T0f2SpvmygNUDGgsWM5rZ6FA4_06RRCcAYAxf5XJERIQLhe8GSw9udMaujaDD_PtexoUyjmk0JuZtQVFs59Zwh4XBTtvFic",
+      "reviews" : [
+         {
+            "aspects" : [
+               {
+                  "rating" : 2,
+                  "type" : "atmosphere"
+               },
+               {
+                  "rating" : 2,
+                  "type" : "decor"
+               },
+               {
+                  "rating" : 2,
+                  "type" : "service"
+               }
+            ],
+            "author_name" : "Richard Hennessy",
+            "author_url" : "https://plus.google.com/102831438059902413534",
+            "text" : "I have been to the Harley many many times over the years but I have never stayed there overnight so I can&#39;t review the accommodation. The bar itself is lively, comfortable and easy going. The staff are on the whole excellent and attentive and glasses are usually cleared on a regular basis unlike in some other bars which really bugs me! I would recommend visiting The Harley",
+            "time" : 1338894608
+         },
+         {
+            "aspects" : [
+               {
+                  "rating" : 3,
+                  "type" : "atmosphere"
+               },
+               {
+                  "rating" : 2,
+                  "type" : "decor"
+               },
+               {
+                  "rating" : 2,
+                  "type" : "service"
+               }
+            ],
+            "author_name" : "Matt Lee",
+            "author_url" : "https://plus.google.com/106243679991060098951",
+            "text" : "Great bar for staying out late and have a good selection of dub step night&#39;s on!!!",
+            "time" : 1342827276
+         },
+         {
+            "aspects" : [
+               {
+                  "rating" : 2,
+                  "type" : "overall"
+               }
+            ],
+            "author_name" : "A Google User",
+            "text" : "Excellent basic hotel above fantastic pub/bar/venue. You could complain that it&#39;s not a 4 star, but for value and service, I was definitely impressed. Won&#39;t bother staying anywhere else in Sheffield in future. Loved it. 4/5",
+            "time" : 1338897696
+         },
+         {
+            "aspects" : [
+               {
+                  "rating" : 0,
+                  "type" : "overall"
+               }
+            ],
+            "author_name" : "A Google User",
+            "text" : "",
+            "time" : 1325827064
+         },
+         {
+            "aspects" : [
+               {
+                  "rating" : 3,
+                  "type" : "overall"
+               }
+            ],
+            "author_name" : "A Google User",
+            "text" : "",
+            "time" : 1315004583
+         }
+      ],
+      "types" : [ "bar", "restaurant", "lodging", "food", "establishment" ],
+      "url" : "https://plus.google.com/110937310828367981175/about?hl=en-GB",
+      "utc_offset" : 60,
+      "vicinity" : "334 Glossop Road, Sheffield",
+      "website" : "http://www.theharley.co.uk/"
+   },
+   "status" : "OK"
+}
